@@ -74,6 +74,29 @@ DB_HOST=localhost
 DB_PORT=5432
 ```
 
+## pjw 정리
+```
+# postgres case
+ENV=dev
+DB=postgresql
+DB_USER=pjw
+DB_PASSWORD=
+DB_HOST=127.0.0.1
+DB_PORT=5432
+
+
+# 특정 버전 설치
+uv venv --python=python3.9   
+
+uv pip install -r requirements.txt 
+
+alembic -x ENV=dev upgrade head
+
+# 실행
+uv run uvicorn app.main:app --host 0.0.0.0 --port 8080
+
+```
+
 ## references
 1. [FastAPI official docs](https://fastapi.tiangolo.com/)
 2. [alembic official tutorial](https://alembic.sqlalchemy.org/en/latest/tutorial.html)
