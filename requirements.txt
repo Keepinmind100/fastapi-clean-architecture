@@ -18,7 +18,7 @@ email_validator==2.2.0
 execnet==1.9.0
 fastapi==0.111.0
 fastapi-cli==0.0.4
-greenlet==1.1.2
+greenlet==3.1.1
 h11==0.13.0
 httpcore==0.16.3
 httptools==0.6.1
@@ -56,7 +56,7 @@ python-dotenv==0.20.0
 python-jose==3.3.0
 python-multipart==0.0.9
 pytz==2022.1
-PyYAML==6.0
+PyYAML==6.0.2
 requests==2.28.1
 rfc3986==1.5.0
 rich==13.7.1
@@ -73,7 +73,6 @@ typer==0.12.3
 typing_extensions==4.12.2
 ujson==5.10.0
 urllib3==1.26.12
-uvicorn==0.20.0
 uvloop==0.16.0
 watchfiles==0.17.0
 watchgod==0.8.2
